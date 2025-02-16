@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ForYou - EzarWebTe</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <header>
+        <div class="logo">EzarWebTe</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="tentang.html">Tentang</a></li>
+                <li><a href="layanan.html">Layanan</a></li>
+                <li><a href="keunggulan.html">Keunggulan</a></li>
+                <li><a href="foryou.html" class="active">ForYou</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    </header>
+
+    <main class="content fade-in">
+        <h4>Rekomendasi Untuk Anda</h4>
+        <div id="konten-terpilih" class="konten-box">
+            <h6>Memuat konten...</h6>
+        </div>
+        <button class="btn" onclick="acakKonten()">Tampilkan Konten Baru</button>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 EzarWebTe. Semua Hak Dilindungi.</p>
+    </footer>
+
+</body>
+</html>
